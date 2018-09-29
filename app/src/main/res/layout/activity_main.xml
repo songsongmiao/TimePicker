@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018-09-26 09:00:00"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+      />
+
+    <TextView
+        android:id="@+id/main_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本地时间"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+
+     />
+
+    <Button
+        android:id="@+id/main_time_stand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:onClick="onLocalTime"
+        android:text="转化为本时区时间"
+
+        />
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="弹出PopWindow弹框"
+        android:onClick="onRefresh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="弹出Dialog弹框"
+        android:onClick="onLoad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        />
+
+
+
+
+</RelativeLayout>
